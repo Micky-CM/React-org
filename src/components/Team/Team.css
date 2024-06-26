@@ -1,0 +1,25 @@
+.team{
+  position: relative;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 32px;
+}
+.input-color{
+  position: absolute;
+  top: 20px;
+  right: 50px;
+}
+.team h3{
+  display: inline-block;
+  color: #212121;
+  font-size: 32px;
+  font-weight: 400;
+  border-bottom: 4px solid;
+  padding-bottom: 8px;
+}
+.collaborators{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
