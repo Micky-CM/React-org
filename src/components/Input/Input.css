@@ -1,16 +1,17 @@
-.input-text{
+.input{
   margin: 24px 0;
   font-family: "Montserrat", sans-serif;
   border: none;
 }
-.input-text label{
+.input label{
   font-size: 18px;
   font-weight: 600;
   display: block;
   margin-bottom: 8px;
 }
-.input-text input{
+.input input{
   width: 100%;
+  height: auto;
   background: #ffffff;
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
   border: none;
@@ -18,4 +19,9 @@
   outline-color: #6278F7;
   font-size: 16px;
   box-sizing: border-box;
+}
+
+.input-color input{
+  height: 40px;
+  padding: 10px 20px;
 }
